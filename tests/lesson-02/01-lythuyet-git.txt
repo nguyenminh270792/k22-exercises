@@ -1,0 +1,16 @@
+# Bài tâp 1
+
+```Hãy tạo file tests/lesson-02/01-lythuyet-git.txt để trả lời cho các câu hỏi
+sau: giải thích các câu lệnh: git init, git add <file_name>, git add ., git
+commit -m “message”.
+```
+
+1. **git init**: dùng để khởi tạo (initalization) những file ở 1 folder ở vùng local, đưa những file này lên vùng ```working directory```
+
+2. **git add <file_name>**: dùng để đưa 1 file cụ thể từ vùng ```working directory``` lên vùng ```staging area```
+
+3. **git add .**: dùng để đưa tất cả những file ở vùng ```local``` và chưa tồn tại ở chưa có ở ```staging area``` lên vùng ```staging area```
+
+4. **git commit -m “message”**
+    - đưa tất cả những file đang ở vùng ```staging area``` lên ```repository```
+    - _"message"_: ý nghĩa của commit đó, nên theo convention và maximum 50 kí tự. Best practice: single commit for one single "unit of work" ; meaningful and descriptive
