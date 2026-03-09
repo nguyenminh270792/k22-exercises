@@ -11,4 +11,3 @@ else if
 else {
     console.log("This is a negative number")
 }
-
